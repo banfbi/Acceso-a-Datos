@@ -739,21 +739,21 @@ La monitorización automática de logs es un complemento esencial para un sistem
 
 1. **¿Cuál es la función principal del logging en una aplicación?**
    - A) Proveer métricas de rendimiento
-   - B) Monitorear y registrar eventos del sistema
+   - ==B) Monitorear y registrar eventos del sistema==
    - C) Mejorar la velocidad del sistema
    - D) Generar interfaces gráficas  
 
 
 2. **¿Qué ventaja ofrece TinyLog en comparación con otros frameworks de logging como Log4j?**
    - A) Mayor cantidad de configuraciones avanzadas
-   - B) Facilidad de uso y menor consumo de recursos
+   - ==B) Facilidad de uso y menor consumo de recursos==
    - C) Mejor integración con bases de datos
    - D) Compatibilidad exclusiva con sistemas Windows  
 
 
 3. **¿Qué nivel de logging es el más detallado en TinyLog?**
    - A) DEBUG
-   - B) TRACE
+   - ==B) TRACE==
    - C) INFO
    - D) WARN  
 
@@ -761,13 +761,13 @@ La monitorización automática de logs es un complemento esencial para un sistem
 4. **¿Qué archivo se utiliza comúnmente para configurar TinyLog en un proyecto Java?**
    - A) `logging.yaml`
    - B) `tinylog.json`
-   - C) `tinylog.properties`
+   - ==C) `tinylog.properties`==
    - D) `log4j.properties`  
 
 
 5. **En TinyLog, ¿qué configuración permite registrar logs en varios destinos a la vez?**
    - A) Configuración de múltiples niveles
-   - B) Configuración de múltiples writers
+   - ==B) Configuración de múltiples writers==
    - C) Configuración de múltiples formatos
    - D) Configuración de múltiples archivos  
 
@@ -775,14 +775,14 @@ La monitorización automática de logs es un complemento esencial para un sistem
 6. **¿Cuál es el propósito de la rotación de archivos en TinyLog?**
    - A) Aumentar la seguridad de los logs
    - B) Cambiar el formato de los logs
-   - C) Limitar el tamaño de los archivos de log
+   - ==C) Limitar el tamaño de los archivos de log==
    - D) Generar logs en diferentes niveles  
 
 
 7. **¿Cómo se define el tamaño máximo de un archivo de log en TinyLog antes de que se active la rotación?**
    - A) Usando la propiedad `rotation.size`
    - B) Usando la propiedad `maxSize`
-   - C) Usando la propiedad `policies = size: [tamaño]`
+   - ==C) Usando la propiedad `policies = size: [tamaño]`==
    - D) No es posible limitar el tamaño de un archivo de log  
 
 
@@ -790,12 +790,12 @@ La monitorización automática de logs es un complemento esencial para un sistem
    - A) DEBUG
    - B) ERROR
    - C) INFO
-   - D) WARN  
+   - ==D) WARN==  
 
 
 9. **¿Cuál es el principal beneficio de utilizar logging asíncrono en TinyLog?**
    - A) Reducir el tamaño de los archivos de log
-   - B) Mejorar el rendimiento evitando bloqueos en el hilo principal
+   - ==B) Mejorar el rendimiento evitando bloqueos en el hilo principal==
    - C) Facilitar la depuración
    - D) Aumentar la cantidad de logs generados  
 
@@ -804,60 +804,60 @@ La monitorización automática de logs es un complemento esencial para un sistem
     - A) `Logger.info()`
     - B) `Logger.warn()`
     - C) `Logger.debug()`
-    - D) `Logger.error()`  
+    - ==D) `Logger.error()`==  
 
 
 11. **¿Cuál de las siguientes opciones es una buena práctica al registrar logs en producción?**
     - A) Registrar todos los niveles, incluidos DEBUG y TRACE
     - B) Usar solo el nivel ERROR
-    - C) Utilizar niveles INFO y WARN
+    - ==C) Utilizar niveles INFO y WARN==
     - D) No registrar logs en producción  
 
 
 12. **¿Qué debe hacerse para evitar exponer información sensible en los logs?**
     - A) No registrar logs en absoluto
-    - B) Usar enmascaramiento o cifrado en los logs
+    - ==B) Usar enmascaramiento o cifrado en los logs==
     - C) Solo registrar información de bajo nivel
     - D) Utilizar solo el nivel TRACE  
 
 
 13. **¿Qué herramienta permite visualizar y analizar los logs generados en un sistema en tiempo real?**
     - A) Eclipse
-    - B) Grafana
+    - ==B) Grafana==
     - C) Intellij IDEA
     - D) VS Code  
 
 
 14. **¿Cuál de las siguientes configuraciones en `tinylog.properties` activa el logging asíncrono en un writer?**
     - A) `async.logging = true`
-    - B) `writer.async = true`
+    - ==B) `writer.async = true`==
     - C) `writer = async`
     - D) `async.enabled = yes`  
 
 
 15. **En TinyLog, ¿cuál es la propiedad adecuada para definir un formato de log personalizado?**
     - A) `logFormat`
-    - B) `format`
+    - ==B) `format`==
     - C) `style`
     - D) `layout`  
 
 
 16. **¿Qué ventaja ofrece la monitorización automática de logs en una aplicación?**
     - A) Evita que la aplicación registre errores
-    - B) Detecta patrones anómalos y alerta al equipo de manera proactiva
+    - ==B) Detecta patrones anómalos y alerta al equipo de manera proactiva==
     - C) Mejora el rendimiento de la aplicación
     - D) Elimina la necesidad de configuración manual  
 
 
 17. **¿Qué herramienta se utiliza junto con Prometheus para visualizar métricas y logs de manera gráfica?**
-    - A) Grafana
+    - ==A) Grafana==
     - B) IntelliJ
     - C) Log4j
     - D) Eclipse  
 
 
 18. **¿Cuál de las siguientes herramientas de monitorización convierte logs en métricas para Prometheus?**
-    - A) Promtail
+    - ==A) Promtail==
     - B) Graylog
     - C) Logstash
     - D) Splunk  
@@ -865,14 +865,14 @@ La monitorización automática de logs es un complemento esencial para un sistem
 
 19. **¿Cuál es el propósito de definir múltiples writers en TinyLog?**
     - A) Facilitar la depuración
-    - B) Separar los logs según su destino
+    - ==B) Separar los logs según su destino==
     - C) Mejorar el rendimiento de los logs
     - D) Cambiar el nivel de logging predeterminado  
 
 
 20. **En el contexto de buenas prácticas, ¿cuál es una recomendación importante al implementar logs?**
     - A) Registrar siempre todos los niveles de log
-    - B) Revisar y monitorizar regularmente los logs
+    - ==B) Revisar y monitorizar regularmente los logs==
     - C) Usar únicamente logs en archivos y no en consola
     - D) Evitar el uso de logs en aplicaciones de producción  
 

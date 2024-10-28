@@ -1176,13 +1176,13 @@ Aplicando lo aprendido en este tutorial, podrá diseñar aplicaciones Java que r
 1. ¿Qué clase es la raíz de toda la jerarquía de excepciones en Java?
    - a) Exception
    - b) Error
-   - c) Throwable
+   - ==c) Throwable==
    - d) RuntimeException  
 
 
 2. ¿Cuál de las siguientes es una excepción verificada?
    - a) NullPointerException
-   - b) IOException
+   - ==b) IOException==
    - c) ArrayIndexOutOfBoundsException
    - d) ArithmeticException  
 
@@ -1190,7 +1190,7 @@ Aplicando lo aprendido en este tutorial, podrá diseñar aplicaciones Java que r
 3. ¿Qué palabra clave se usa para capturar una excepción en Java?
    - a) throw
    - b) throws
-   - c) catch
+   - ==c) catch==
    - d) finally  
 
 
@@ -1198,12 +1198,12 @@ Aplicando lo aprendido en este tutorial, podrá diseñar aplicaciones Java que r
    - a) try
    - b) catch
    - c) throw
-   - d) finally  
+   - ==d) finally==  
 
 
 5. ¿Cuál es el propósito del bloque `finally` en Java?
    - a) Ignorar la excepción
-   - b) Ejecutar código de limpieza de recursos
+   - ==b) Ejecutar código de limpieza de recursos==
    - c) Capturar excepciones específicas
    - d) Propagar la excepción  
 
@@ -1211,27 +1211,27 @@ Aplicando lo aprendido en este tutorial, podrá diseñar aplicaciones Java que r
 6. ¿Cuál de las siguientes excepciones es no verificada?
    - a) FileNotFoundException
    - b) SQLException
-   - c) NullPointerException
+   - ==c) NullPointerException==
    - d) IOException  
 
 
 7. ¿Qué clase debe extender una excepción personalizada para que sea verificada?
    - a) Throwable
-   - b) Exception
+   - ==b) Exception==
    - c) RuntimeException
    - d) Error  
 
 
 8. ¿Qué método de TinyLog se usa para registrar una excepción como error?
    - a) Logger.warn()
-   - b) Logger.error()
+   - ==b) Logger.error()==
    - c) Logger.debug()
    - d) Logger.info()  
 
 
 9. ¿Cuál es la ventaja de `try-with-resources`?
    - a) Permite lanzar múltiples excepciones
-   - b) Automatiza el cierre de recursos
+   - ==b) Automatiza el cierre de recursos==
    - c) Evita la declaración de excepciones verificadas
    - d) Permite capturar excepciones sin `catch`  
 
@@ -1239,13 +1239,13 @@ Aplicando lo aprendido en este tutorial, podrá diseñar aplicaciones Java que r
 10. ¿Qué opción es una buena práctica en el manejo de excepciones?
     - a) Capturar excepciones genéricas como Exception
     - b) Silenciar excepciones sin registrar el error
-    - c) Registrar excepciones y proporcionar contexto adicional
+    - ==c) Registrar excepciones y proporcionar contexto adicional==
     - d) Relanzar excepciones sin mensaje adicional  
 
 
 11. ¿Qué palabra clave se usa para propagar una excepción al método llamante?
     - a) throw
-    - b) throws
+    - ==b) throws==
     - c) finally
     - d) try  
 
@@ -1253,14 +1253,14 @@ Aplicando lo aprendido en este tutorial, podrá diseñar aplicaciones Java que r
 12. ¿Qué tipo de excepción representa errores graves fuera del control de la aplicación?
     - a) Exception
     - b) RuntimeException
-    - c) Error
+    - ==c) Error==
     - d) IOException  
 
 
 13. ¿Qué ocurre si no se maneja una excepción verificada?
     - a) La aplicación se detiene automáticamente
     - b) La aplicación sigue ejecutándose
-    - c) El compilador lanza un error
+    - ==c) El compilador lanza un error==
     - d) El sistema ignora la excepción  
 
 
@@ -1268,11 +1268,11 @@ Aplicando lo aprendido en este tutorial, podrá diseñar aplicaciones Java que r
     - a) debug
     - b) info
     - c) warn
-    - d) error  
+    - ==d) error==  
 
 
 15. ¿Qué método de TinyLog se usa para registrar advertencias?
-    - a) Logger.warn()
+    - ==a) Logger.warn()==
     - b) Logger.error()
     - c) Logger.debug()
     - d) Logger.trace()  
@@ -1281,13 +1281,13 @@ Aplicando lo aprendido en este tutorial, podrá diseñar aplicaciones Java que r
 16. ¿Cuál de las siguientes es una excepción verificada que debe manejarse o declararse?
     - a) NullPointerException
     - b) ArithmeticException
-    - c) SQLException
+    - ==c) SQLException==
     - d) ArrayIndexOutOfBoundsException  
 
 
 17. ¿Qué hace el bloque `catch` cuando se usa junto con `try`?
     - a) Propaga la excepción
-    - b) Captura y maneja la excepción
+    - ==b) Captura y maneja la excepción==
     - c) Siempre ejecuta código de limpieza
     - d) Ignora la excepción  
 
@@ -1295,14 +1295,14 @@ Aplicando lo aprendido en este tutorial, podrá diseñar aplicaciones Java que r
 18. ¿Cuál de estas opciones es una mala práctica en el manejo de excepciones?
     - a) Documentar excepciones en Javadoc
     - b) Relanzar excepciones con contexto adicional
-    - c) Silenciar excepciones sin notificar el error
+    - ==c) Silenciar excepciones sin notificar el error==
     - d) Usar try-with-resources para cerrar recursos  
 
 
 19. ¿Qué excepción debe lanzarse si se realiza una operación aritmética no válida, como dividir por cero?
     - a) IOException
     - b) NullPointerException
-    - c) ArithmeticException
+    - ==c) ArithmeticException==
     - d) IllegalArgumentException  
 
 
@@ -1310,5 +1310,5 @@ Aplicando lo aprendido en este tutorial, podrá diseñar aplicaciones Java que r
     - a) Exception
     - b) Throwable
     - c) Error
-    - d) RuntimeException  
+    - ==d) RuntimeException==  
 
