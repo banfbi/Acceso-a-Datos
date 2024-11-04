@@ -1,4 +1,4 @@
-Ejemplo completo en Java para serializar y deserializar una clase `Estudiante` a un archivo binario. Se incluirá el código para:
+Ejemplo completo en Java para serializar y desserializar una clase `Estudiante` a un archivo binario. Se incluirá el código para:
 
 1. Crear la clase `Estudiante` que implementa la interfaz `Serializable`.
 2. Serializar un `ArrayList<Estudiante>` a un archivo.
