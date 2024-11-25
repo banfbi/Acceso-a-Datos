@@ -1216,7 +1216,7 @@ Al trabajar con Apache POI para manipular documentos Word en Java, es importante
 
 1. **¿Qué es Apache POI?**
    - a) Un IDE de desarrollo para Java
-   - b) Una biblioteca de manipulación de documentos de Microsoft Office en Java 
+   - ==b) Una biblioteca de manipulación de documentos de Microsoft Office en Java== 
    - c) Una herramienta para gestionar bases de datos en Java
    - d) Un sistema operativo para aplicaciones Java
 
@@ -1224,113 +1224,113 @@ Al trabajar con Apache POI para manipular documentos Word en Java, es importante
    - a) POI-EXCEL
    - b) POI-HSSF
    - c) POI-HWPF
-   - d) POI-XWPF 
+   - ==d) POI-XWPF== 
 
 3. **¿Qué clase se utiliza para representar un documento Word en Apache POI?**
-   - a) XWPFDocument ****
+   - ==a) XWPFDocument ****==
    - b) XWPFWord
    - c) XWPFDOC
    - d) HWPFDocument
 
 4. **¿Qué método permite crear un nuevo párrafo en un documento?**
    - a) document.addParagraph()
-   - b) document.createParagraph() 
+   - ==b) document.createParagraph()== 
    - c) document.newParagraph()
    - d) document.appendParagraph()
 
 5. **¿Cuál de los siguientes métodos se utiliza para añadir texto a un párrafo?**
    - a) setText()
    - b) addText()
-   - c) createRun().setText() 
+   - ==c) createRun().setText()== 
    - d) textRun()
 
 6. **¿Qué clase se utiliza para representar una tabla en Apache POI?**
    - a) XWPFTab
-   - b) XWPFTable 
+   - ==b) XWPFTable== 
    - c) XWPFRow
    - d) XWPFData
 
 7. **¿Cómo se añade una nueva fila a una tabla existente en Apache POI?**
    - a) table.addRow()
    - b) table.createNewRow()
-   - c) table.createRow()
+   - ==c) table.createRow()==
    - d) table.newRow()
 
 8. **¿Qué clase se utiliza para definir el contenido de una celda en una tabla?**
    - a) XWPFCell
    - b) XWPFParagraph
-   - c) XWPFTableCell 
+   - ==c) XWPFTableCell== 
    - d) XWPFTableData
 
 9. **¿Qué método se utiliza para guardar un documento Word en el sistema de archivos?**
    - a) document.write(File)
    - b) document.saveTo(File)
    - c) document.store(File)
-   - d) document.write(FileOutputStream) 
+   - ==d) document.write(FileOutputStream)== 
 
 10. **¿Cuál de las siguientes opciones permite establecer un encabezado en un documento?**
     - a) document.setHeader()
-    - b) XWPFHeaderFooterPolicy.createHeader() 
+    - ==b) XWPFHeaderFooterPolicy.createHeader()== 
     - c) document.addHeader()
     - d) document.newHeader()
 
 11. **¿Qué clase se usa para agregar una imagen en Apache POI?**
     - a) XWPFImage
-    - b) XWPFPicture 
+    - ==b) XWPFPicture== 
     - c) XWPFImageAdd
     - d) XWPFMedia
 
 12. **¿Cuál de los siguientes formatos de imagen es soportado por Apache POI?**
     - a) TIFF
     - b) BMP
-    - c) JPEG ****
+    - ==c) JPEG ****==
     - d) PSD
 
 13. **¿Qué clase se utiliza para aplicar numeración en listas?**
     - a) XWPFNumberList
-    - b) XWPFNumbering 
+    - ==b) XWPFNumbering== 
     - c) XWPFList
     - d) XWPFBulletList
 
 14. **¿Cómo se crea una lista con viñetas en Apache POI?**
     - a) Usando XWPFBullet
     - b) Usando XWPFList.create()
-    - c) Usando XWPFParagraph.setNumID() ****
+    - ==c) Usando XWPFParagraph.setNumID() ****==
     - d) Usando XWPFTab.setList()
 
 15. **¿Qué método de `XWPFRun` permite establecer el tamaño de la fuente?**
     - a) setSize()
-    - b) setFontSize() 
+    - ==b) setFontSize()== 
     - c) setTextSize()
     - d) setFont()
 
 16. **¿Cuál es la clase utilizada para definir los márgenes de la página?**
     - a) XWPFMargin
     - b) XWPFDocumentMargin
-    - c) CTSectPr 
+    - ==c) CTSectPr== 
     - d) CTMargin
 
 17. **¿Cómo se cambia la orientación de la página a horizontal en Apache POI?**
     - a) setPageOrientation(LANDSCAPE)
     - b) document.setPageOrientationHorizontal()
-    - c) CTPageSz.setOrient(STPageOrientation.LANDSCAPE) 
+    - ==c) CTPageSz.setOrient(STPageOrientation.LANDSCAPE)== 
     - d) XWPFOrientation.HORIZONTAL
 
 18. **¿Cuál es la clase para manipular encabezados y pies de página en Apache POI?**
-    - a) XWPFHeaderFooterPolicy 
+    - ==a) XWPFHeaderFooterPolicy== 
     - b) XWPFHeaderPolicy
     - c) XWPFDocumentHeader
     - d) XWPFPageSetup
 
 19. **¿Qué método se utiliza para establecer el color de fondo de una celda en una tabla?**
     - a) cell.setBackgroundColor()
-    - b) cell.getCTTc().addNewTcPr().addNewShd().setFill()
+    - ==b) cell.getCTTc().addNewTcPr().addNewShd().setFill()==
     - c) cell.setBackgroundFill()
     - d) cell.setShadingColor()
 
 20. **¿Qué herramienta adicional permite convertir un documento Word a PDF en Java?**
     - a) PDFBox
-    - b) JODConverter 
+    - ==b) JODConverter== 
     - c) PDFKit
     - d) OpenPDF
 
